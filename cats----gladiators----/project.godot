@@ -11,8 +11,18 @@ config_version=5
 [application]
 
 config/name="Cats__--Gladiators--__"
+run/main_scene="uid://blm8vcsq5vmli"
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
+
+[audio]
+
+buses/default_bus_layout="res://sounds/default_bus_layout.tres"
+driver/output_latency=4
+
+[autoload]
+
+Data="*res://Data.gd"
 
 [display]
 
